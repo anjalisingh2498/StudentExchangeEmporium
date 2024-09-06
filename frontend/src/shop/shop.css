@@ -1,0 +1,29 @@
+.book-cards-container {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    background-color: var(--pure-white);
+    gap: 1rem;
+    padding: 4rem;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .book-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #e2e8f0; /* light gray */
+    border-radius: 0.5rem; /* rounded corners */
+    background-color: #fff; /* white background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px); /* slight lift on hover */
+  }
+  

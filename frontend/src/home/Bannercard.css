@@ -1,0 +1,35 @@
+.ban .swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+.ban .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .ban .swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+  
+  .ban .swiper-slide:nth-child(2n) {
+    background-image: url('src/assets/Images/abstractbook.jpg');
+  }
+  
+  .ban .swiper-slide:nth-child(3n) {
+    background-image: url('src/assets/Images/lab.jpg');
+  }
+  
+  .ban .swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+  
+  .ban .swiper-slide:nth-child(5n) {
+    background-image: url('src/assets/Images/stationary.jpg');
+  }
+  
